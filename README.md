@@ -6,20 +6,20 @@
 
 <img src="./final.gif"   width=250/>
 
-`import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View } from 'react-native';<br>
 
 
 
 
-import WorldMap from 'react-native-world-map-svg'
+import WorldMap from 'react-native-world-map-svg'<br>
 
-export default function App() {
-  return (
-    <View style={{flex:1}}>
-      <WorldMap onSelectContinent={(el) => alert(el)} color='black'  selectedColor="red" />
-    </View>
-  );
-}`
+export default function App() {<br>
+  return (<br>
+    <View style={{flex:1}}><br>
+      <WorldMap onSelectContinent={(el) => alert(el)} color='black'  selectedColor="red" /><br>
+    </View><br>
+  );<br>
+}<br>
     
 
 
