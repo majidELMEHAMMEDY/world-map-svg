@@ -1,12 +1,28 @@
 # world-map-svg
 
-<p>Create a simple swap tile puzzle out of an image.</p>
+<p>Clickable World Map SVG.</p>
 <h2><a id="user-content-example" class="anchor" aria-hidden="true" href="#example"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"></svg></a>Example</h2>
 
 
-<img src="./final.gif" alt="this slowpoke moves"  width=250/>
+<img src="./final.gif"   width=250/>
 
-<img src="./Capture.png" alt="this slowpoke moves"  width=250/>
+`import { StyleSheet, Text, View } from 'react-native';
+
+
+
+
+import WorldMap from 'react-native-world-map-svg'
+
+export default function App() {
+  return (
+    <View style={{flex:1}}>
+      <WorldMap onSelectContinent={(el) => alert(el)} color='black'  selectedColor="red" />
+    </View>
+  );
+}`
+    
+
+
     
     
 <table>
