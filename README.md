@@ -5,6 +5,19 @@
 
 
 <img src="./final.gif" alt="this slowpoke moves"  width=250/>
+
+
+import WorldMap from 'react-native-world-map-svg'
+
+export default function App() {
+  return (
+    <View style={{flex:1}}>
+      <WorldMap onSelectContinent={(el) => alert(el)} color='black'  selectedColor="red" />
+    </View>
+  );
+}
+    
+    
 <table>
 <thead>
 <tr>
