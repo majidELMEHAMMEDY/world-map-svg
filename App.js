@@ -1,7 +1,10 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import WorldMap from 'react-native-world-map-svg'
+import WorldMap from 'react-native-world-map-svg';
+
+//TODO add new branch for library sourceCode
+// optimize code and push new version to github and update npm
 
 export default function App() {
   return (
