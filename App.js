@@ -3,7 +3,9 @@ import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import WorldMap from 'react-native-world-map-svg';
 
-//TODO optimize the source code and include it in git 
+
+//TODO add new branch for library sourceCode
+// optimize code and push new version to github and update npm
 export default function App() {
   return (
     <View style={{flex:1}}>
